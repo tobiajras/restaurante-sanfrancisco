@@ -110,14 +110,14 @@ const Navbar = () => {
             <li>
               <Link
                 onClick={() => setIsOpen(false)}
-                to='contactoSection'
+                to='ubicacionSection'
                 spy={true}
                 smooth={true}
                 offset={-96}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
-                Contacto
+                Ubicación
               </Link>
             </li>
           </ul>
@@ -182,14 +182,14 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to='contactoSection'
+                to='ubicacionSection'
                 spy={true}
                 smooth={true}
                 offset={-96}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
-                Contacto
+                Ubicación
               </Link>
             </li>
           </ul>

@@ -21,19 +21,20 @@ const NosotrosSection = () => {
   const [clicked, setClicked] = useState(false);
 
   return (
-    <section id='nosotrosSection'>
+    <section id='nosotrosSection' className='my-10 md:my-20'>
       <div>
         <SectionTitle title='Nosotros' />
         <div className='flex items-center gap-10'>
           <article>
-            <h4 className='text-3xl text-color-secondary font-medium'>
-              Somos <span className='font-bold'>Comunidad</span>
+            <h4 className='text-3xl text-color-secondary font-semibold'>
+              Somos{' '}
+              <span className='font-bold text-color-primary'>Comunidad</span>
             </h4>
             <div className='w-[500px] text-lg flex flex-col gap-3 mt-5'>
               <p>
                 Fundado en 1997, hemos crecido desde un pequeño local hasta
                 convertirnos en un referente en lo que somos hoy, siempre
-                manteniendo nuestro compromiso con la calidad y el servicio."
+                manteniendo nuestro compromiso con la calidad y el servicio.
               </p>
               <p>
                 En <span>San Francisco</span> cada visita es una nueva

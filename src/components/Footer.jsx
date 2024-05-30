@@ -9,7 +9,7 @@ import { Link } from 'react-scroll';
 
 const Footer = () => {
   return (
-    <footer className='flex justify-center pt-10 pb-16 shadow-top-lg bg-color-background '>
+    <footer className='flex justify-center pt-10 pb-16 shadow-top-lg bg-color-bg-primary '>
       <div className='flex flex-col w-full max-w-6xl mx-6 sm:mx-8 md:mx-10'>
         <section className='flex md:justify-center w-full'>
           <div className='flex flex-col md:flex-row gap-8 lg:gap-32 w-full justify-between max-w-6xl  py-10'>
@@ -22,11 +22,11 @@ const Footer = () => {
                   width={60}
                   height={60}
                 />
-                <span className='font-medium text-color-secondary'>
+                <span className='font-medium text-color-title-light'>
                   Restaurante San Francisco
                 </span>
               </div>
-              <p className='text-sm mt-3 max-w-96'>
+              <p className='text-sm mt-3 max-w-96 text-color-text-light'>
                 Con más de 20 años de experiencia, nos dedicamos con pasión a
                 ofrecer experiencias culinarias únicas y a crear momentos
                 inolvidables
@@ -37,28 +37,28 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <WhatsappIcon className='w-8 h-8 text-color-primary hover:text-color-primary-dark transition-colors' />
+                  <WhatsappIcon className='w-8 h-8 text-color-primary-light hover:text-color-primary transition-colors' />
                 </a>
                 <a
                   href='https://www.facebook.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FacebookIcon className='w-8 h-8 text-color-primary hover:text-color-primary-dark transition-colors' />
+                  <FacebookIcon className='w-8 h-8 text-color-primary-light hover:text-color-primary transition-colors' />
                 </a>
                 <a
                   href='https://www.instagram.com/restsanfranciscocoyoacan'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <InstagramIcon className='w-8 h-8 text-color-primary hover:text-color-primary-dark transition-colors' />
+                  <InstagramIcon className='w-8 h-8 text-color-primary-light hover:text-color-primary transition-colors' />
                 </a>
               </div>
             </article>
             <article className='flex md:justify-center'>
               <div>
-                <h4 className='text-color-title'>Menú</h4>
-                <ul className='flex flex-col'>
+                <h4 className='text-color-title-light'>Menú</h4>
+                <ul className='flex flex-col text-color-text-light'>
                   <li>
                     <Link
                       to='inicioSection'
@@ -66,7 +66,7 @@ const Footer = () => {
                       smooth={true}
                       offset={-96}
                       duration={500}
-                      className=' hover:text-color-title transition-colors cursor-pointer'
+                      className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
                       Inicio
                     </Link>
@@ -78,7 +78,7 @@ const Footer = () => {
                       smooth={true}
                       offset={-96}
                       duration={500}
-                      className=' hover:text-color-title transition-colors cursor-pointer'
+                      className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
                       Servicios
                     </Link>
@@ -90,7 +90,7 @@ const Footer = () => {
                       smooth={true}
                       offset={-96}
                       duration={500}
-                      className=' hover:text-color-title transition-colors cursor-pointer'
+                      className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
                       Testimonios
                     </Link>
@@ -102,21 +102,21 @@ const Footer = () => {
                       smooth={true}
                       offset={-96}
                       duration={500}
-                      className=' hover:text-color-title transition-colors cursor-pointer'
+                      className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
                       Nosotros
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to='contactoSection'
+                      to='ubicacionSection'
                       spy={true}
                       smooth={true}
                       offset={-96}
                       duration={500}
-                      className=' hover:text-color-title transition-colors cursor-pointer'
+                      className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
-                      Contacto
+                      Ubicación
                     </Link>
                   </li>
                 </ul>
@@ -124,18 +124,18 @@ const Footer = () => {
             </article>
             <article className='w-full'>
               <div>
-                <h4 className='text-color-title'>Dirección</h4>
-                <p>Zompantitla 7, Coyoacán</p>
+                <h4 className='text-color-title-light'>Dirección</h4>
+                <p className='text-color-text-light'>Zompantitla 7, Coyoacán</p>
               </div>
               <div>
-                <h4 className='text-color-title'>Teléfono</h4>
-                <span>744 3771311</span>
+                <h4 className='text-color-title-light'>Teléfono</h4>
+                <span className='text-color-text-light'>744 3771311</span>
               </div>
               <div>
-                <h4 className='text-color-title'>Email</h4>
+                <h4 className='text-color-title-light'>Email</h4>
                 <a
                   href='mailto:info@bmasbgroup.com'
-                  className=' hover:text-color-title transition-colors'
+                  className='text-color-text-light hover:text-color-title-light transition-colors'
                 >
                   restaurantesanfrancisco@gmail.com
                 </a>
@@ -144,7 +144,7 @@ const Footer = () => {
           </div>
         </section>
         <section className='flex justify-center'>
-          <article className='flex flex-col md:flex-row justify-between items-center text-sm sm:text-base gap-3 sm:gap-5 pt-8 border-t border-color-primary w-full max-w-6xl'>
+          <article className='flex text-color-text-light flex-col md:flex-row justify-between items-center text-sm sm:text-base gap-3 sm:gap-5 pt-8 border-t border-color-primary-light w-full max-w-6xl'>
             <div className='flex flex-col sm:flex-row items-center gap-2'>
               <span>© Copyright 2024</span>
               <span className='hidden sm:block'>-</span>
@@ -156,7 +156,7 @@ const Footer = () => {
                 href='https://www.linkedin.com/in/tobiasajras/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-color-primary hover:text-color-primary-dark hover:font-medium transition-all'
+                className='text-color-primary-light hover:text-color-primary hover:font-medium transition-all'
               >
                 Tobías Ajras
               </a>

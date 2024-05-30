@@ -2,6 +2,7 @@ import HomeSection from './inicio/InicioSection';
 import NosotrosSection from './nosotros/NosotrosSection';
 import ServiciosSection from './servicios/ServiciosSection';
 import TestimoniosSection from './testimonios/TestimoniosSection';
+import UbicacionSection from './ubicacion/UbicacionSection';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <ServiciosSection />
       <TestimoniosSection />
       <NosotrosSection />
+      <UbicacionSection />
     </main>
   );
 }
