@@ -4,7 +4,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 
 import { useState } from 'react';
 
-import testimonios from '@/data/testimonios';
+import testimonios from '@/data/testimonios.json';
 
 import StarIcon from '@/components/icons/StarIcon';
 import Image from 'next/image';
@@ -25,7 +25,7 @@ const TestimoniosSection = () => {
         <div
           onMouseUp={() => setClicked(false)}
           onMouseDown={() => setClicked(true)}
-          className={`flex gap-2 sm:gap-3 md:gap-5 max-w-6xl mx-6 sm:mx-8 md:mx-10 ${
+          className={`flex gap-2 sm:gap-3 md:gap-5 max-w-6xl mx-4 sm:mx-6 md:mx-8 ${
             clicked ? 'cursor-grabbing' : 'cursor-grab'
           }`}
         >

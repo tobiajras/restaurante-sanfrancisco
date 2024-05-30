@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Restaurante",
+    "description": [
+      "Disfruta de una exquisita selección de platos elaborados con ingredientes frescos y de la más alta calidad.",
+      "Nuestro restaurante ofrece una experiencia culinaria única que combina tradición y creatividad en un ambiente acogedor y elegante."
+    ],
+    "icon": "RestaurantIcon",
+    "image": "/assets/servicios/restaurante-servicios.webp"
+  },
+  {
+    "title": "Bar",
+    "description": [
+      "Relájate y disfruta de nuestra amplia variedad de cócteles artesanales, vinos y cervezas en un entorno moderno y animado.",
+      "Perfecto para pasar un buen rato con amigos o para un afterwork inolvidable."
+    ],
+    "icon": "BarIcon",
+    "image": "/assets/servicios/bar-servicios.webp"
+  },
+  {
+    "title": "Cafetería",
+    "description": [
+      "Encuentra el lugar perfecto para una pausa tranquila con nuestra selección de cafés gourmet, tés y deliciosos pasteles.",
+      "Ideal para trabajar, reunirse con amigos o simplemente disfrutar de un momento de paz."
+    ],
+    "icon": "CafeteriaIcon",
+    "image": "/assets/servicios/cafeteria-servicios.webp"
+  }
+]

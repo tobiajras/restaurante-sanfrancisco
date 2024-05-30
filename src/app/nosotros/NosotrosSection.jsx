@@ -27,7 +27,7 @@ const NosotrosSection = () => {
     >
       <div className=''>
         <SectionTitle title='Nosotros' />
-        <div className='flex flex-col md:flex-row items-center gap-10 mx-6 sm:mx-8 md:mx-10'>
+        <div className='flex flex-col md:flex-row items-center gap-10 mx-4 sm:mx-6 md:mx-8'>
           <article className='w-full'>
             <h4 className='md:text-2xl lg:text-3xl text-color-secondary font-semibold'>
               Somos{' '}
@@ -55,7 +55,7 @@ const NosotrosSection = () => {
               clicked ? 'cursor-grabbing' : 'cursor-grab'
             }`}
           >
-            <div className='flex w-64 sm:w-[400px] '>
+            <div className='flex w-[300px] sm:w-[400px] '>
               <div className='flex-[0_0_100%] mx-5'>
                 <Image
                   className='object-contain rounded-xl'

@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <header className='sticky flex justify-center items-center top-0 left-0 w-full h-24 z-40 bg-color-bg-primary'>
-      <div className='flex justify-between items-center mx-6 sm:mx-8 md:mx-10 w-full h-full max-w-6xl'>
+      <div className='flex justify-between items-center mx-4 sm:mx-6 md:mx-8 w-full h-full max-w-6xl'>
         <Link
           to='inicioSection'
           spy={true}

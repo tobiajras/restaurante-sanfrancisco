@@ -10,7 +10,7 @@ import { Link } from 'react-scroll';
 const Footer = () => {
   return (
     <footer className='flex justify-center pt-10 pb-16 shadow-top-lg bg-color-bg-primary '>
-      <div className='flex flex-col w-full max-w-6xl mx-6 sm:mx-8 md:mx-10'>
+      <div className='flex flex-col w-full max-w-6xl mx-4 sm:mx-6 md:mx-8'>
         <section className='flex md:justify-center w-full'>
           <div className='flex flex-col md:flex-row gap-8 lg:gap-32 w-full justify-between max-w-6xl  py-10'>
             <article className='flex w-full flex-col'>
