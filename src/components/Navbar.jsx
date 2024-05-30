@@ -37,9 +37,15 @@ const Navbar = () => {
           smooth={true}
           offset={-96}
           duration={500}
-          className='text-color-text-light hover:text-color-title-light transition-colors py-6 sm:py-5'
+          className='cursor-pointer flex items-center gap-3 text-lg text-color-text-light hover:text-color-title-light transition-colors py-6 sm:py-5'
         >
-          Restaurante San Francisco
+          <Image
+            src='/assets/logo-restaurantecf.webp'
+            width={50}
+            height={50}
+            alt='logo restaurante'
+          />
+          <span>Restaurante San Francisco</span>
         </Link>
         <nav
           className={`${
@@ -114,6 +120,12 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <button
+            onClick={() => setIsOpen(false)}
+            className='md:hidden absolute top-0 right-0 m-7'
+          >
+            <CloseIcon className='w-7 h-7 fill-color-text-light hover:fill-color-title-light transition-colors' />
+          </button>
         </nav>
         <nav
           className={`hidden absolute top-0  h-screen w-1/2 bg-color-bg-primary md:block md:relative md:w-auto md:h-auto md:mt-0 nav-animation`}
@@ -183,7 +195,7 @@ const Navbar = () => {
         </nav>
 
         <button className='md:hidden' onClick={() => handleNav()}>
-          <HamburguerIcon className='fill-color-text w-9 h-9 hover:fill-color-title transition-colors' />
+          <HamburguerIcon className='fill-color-text-light w-9 h-9 hover:fill-color-title-light transition-colors' />
         </button>
       </div>
     </header>
