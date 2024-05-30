@@ -12,15 +12,17 @@ const HomeSection = () => {
             <span>#Bar</span>
             <span>#Cafetería</span>
           </div>
-          <div className='text-6xl font-bold mt-1'>
+          <div className='text-6xl font-bold mt-1 text-color-secondary'>
             <h2>Sabor y tradición</h2>
             <h2>en cada bocado</h2>
           </div>
           <div className='flex gap-1 items-center  mt-4'>
             <span>
-              <LocationIcon className='w-6 h-6' />
+              <LocationIcon className='w-6 h-6 text-color-secondary' />
             </span>
-            <h3 className='text-2xl font-semibold'>Zompantitla 7, Coyoacán</h3>
+            <h3 className='text-2xl font-semibold text-color-secondary'>
+              Zompantitla 7, Coyoacán
+            </h3>
           </div>
           <div className='mt-8'>
             <a

@@ -14,7 +14,9 @@ const ServiciosSection = () => {
               <div className='bg-color-primary p-3 rounded-full'>
                 <RestaurantIcon className='w-6 h-6' />
               </div>
-              <h3 className='text-2xl font-semibold'>Restaurante</h3>
+              <h3 className='text-2xl font-semibold text-color-secondary'>
+                Restaurante
+              </h3>
             </div>
             <div className='flex flex-col gap-2 text-lg font-medium w-[500px]'>
               <p>
@@ -54,7 +56,9 @@ const ServiciosSection = () => {
               <div className='bg-color-primary p-3 rounded-full'>
                 <BarIcon className='w-6 h-6' />
               </div>
-              <h3 className='text-2xl font-semibold'>Bar</h3>
+              <h3 className='text-2xl font-semibold text-color-secondary'>
+                Bar
+              </h3>
             </div>
             <div className='flex flex-col gap-2 text-lg font-medium w-[500px]'>
               <p>
@@ -75,7 +79,9 @@ const ServiciosSection = () => {
               <div className='bg-color-primary p-3 rounded-full'>
                 <CafeteriaIcon className='w-6 h-6' />
               </div>
-              <h3 className='text-2xl font-semibold'>Cafetería</h3>
+              <h3 className='text-2xl font-semibold text-color-secondary'>
+                Cafetería
+              </h3>
             </div>
             <div className='flex flex-col gap-2 text-lg font-medium w-[500px]'>
               <p>
