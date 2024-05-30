@@ -21,16 +21,19 @@ const NosotrosSection = () => {
   const [clicked, setClicked] = useState(false);
 
   return (
-    <section id='nosotrosSection' className='my-10 md:my-20'>
-      <div>
+    <section
+      id='nosotrosSection'
+      className='flex justify-center my-10 md:my-20'
+    >
+      <div className=''>
         <SectionTitle title='Nosotros' />
-        <div className='flex items-center gap-10'>
-          <article>
-            <h4 className='text-3xl text-color-secondary font-semibold'>
+        <div className='flex flex-col md:flex-row items-center gap-10 mx-6 sm:mx-8 md:mx-10'>
+          <article className='w-full'>
+            <h4 className='md:text-2xl lg:text-3xl text-color-secondary font-semibold'>
               Somos{' '}
               <span className='font-bold text-color-primary'>Comunidad</span>
             </h4>
-            <div className='w-[500px] text-lg flex flex-col gap-3 mt-5'>
+            <div className=' sm:w-[300px] md:w-[500px] text-sm text-lg flex flex-col gap-2 sm:gap-3 mt-2 sm:mt-3 md:mt-5'>
               <p>
                 Fundado en 1997, hemos crecido desde un pequeño local hasta
                 convertirnos en un referente en lo que somos hoy, siempre
@@ -52,7 +55,7 @@ const NosotrosSection = () => {
               clicked ? 'cursor-grabbing' : 'cursor-grab'
             }`}
           >
-            <div className='flex w-[400px] h-[500px]'>
+            <div className='flex w-64 sm:w-[400px] '>
               <div className='flex-[0_0_100%] mx-5'>
                 <Image
                   className='object-contain rounded-xl'

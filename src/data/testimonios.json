@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Ing. Brayan González Hernández",
+    "image": "/assets/testimonios/testimonio1.webp",
+    "text": "Excelente lugar, para pasar unos buenos tragos y bailar, lo mejor es después de las 10 que llega el cantante de salsa",
+    "rating": 5
+  },
+  {
+    "name": "Jacqueline Flores Segovia",
+    "image": "/assets/testimonios/testimonio2.webp",
+    "text": "Joya de la cultura mexicana, tiene un tubo en la pista para amenizar y que todos lo puedan usar jajaja. Lugar muy chido si te gusta algo no típico fresa de coyo, precios justos y Joshua canta los viernes",
+    "rating": 5
+  },
+  {
+    "name": "Christian Quiñones",
+    "image": "/assets/testimonios/testimonio3.webp",
+    "text": "Buen lugar. El ambiente no falla. Cuándo hay salsa en vivo, ufff, se pone muy bien. El famoso bar del Tubo en Coyoacán nunca falla.",
+    "rating": 5
+  },
+  {
+    "name": "Dalia Reyes G",
+    "image": "/assets/testimonios/testimonio4.webp",
+    "text": "Este lugar es perfecto para ir a \"charanguear\" y pasarla con amigos, las cervezas siempre están super frias.",
+    "rating": 5
+  },
+  {
+    "name": "Rubén Galicia",
+    "image": "/assets/testimonios/testimonio5.webp",
+    "text": "El mejor ambiente de la zona. Precios accesibles, buenas botanas, buenos tragos y un tubo en la pista que siempre causa sensación. Super divertido si vas con los amigos y bueno para ir a echar el trago.",
+    "rating": 5
+  },
+  {
+    "name": "Erick Ochoa",
+    "image": "/assets/testimonios/testimonio6.webp",
+    "text": "Este lugar en una zona popular de Coyoacan tiene bastante onda, Una rocola de las de antes con todo tipo de musica, ademas de que el lugar es frecuentado por universitarios debido al bajo costo de las cervezas.",
+    "rating": 5
+  },
+  {
+    "name": "Fernanda Pille",
+    "image": "/assets/testimonios/testimonio7.webp",
+    "text": "Las bebidas a precios accesibles, ambiente relajado para ir a chelear y bailar un buen rato.",
+    "rating": 5
+  },
+  {
+    "name": "Pavel VM",
+    "image": "/assets/testimonios/testimonio8.webp",
+    "text": "Venden desayunos y comidas además de cervezas y licores. Los alimentos se sirven hasta las 6, después solo tragos.",
+    "rating": 5
+  }
+]

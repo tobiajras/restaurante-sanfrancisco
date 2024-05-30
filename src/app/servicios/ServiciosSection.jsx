@@ -8,19 +8,19 @@ import React from 'react';
 const ServiciosSection = () => {
   return (
     <section id='serviciosSection' className='my-10 md:my-20'>
-      <div className='flex flex-col'>
+      <div className='flex flex-col mx-6 sm:mx-8 md:mx-10'>
         <SectionTitle title='Servicios' />
-        <article className='flex items-center gap-16 mb-32'>
+        <article className='flex items-center  gap-3 sm:gap-8 md:gap-16 mb-10 sm:mb-16 md:mb-24 lg:mb-32'>
           <div>
-            <div className='flex items-center gap-3 mb-3'>
-              <div className='bg-color-primary p-3 rounded-full'>
-                <RestaurantIcon className='w-6 h-6' />
+            <div className='flex items-center gap-2 md:gap-3 mb-3'>
+              <div className='bg-color-primary p-2 md:p-3 rounded-full'>
+                <RestaurantIcon className='w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6' />
               </div>
-              <h3 className='text-2xl font-semibold text-color-secondary'>
+              <h3 className='sm:text-lg md:text-2xl font-semibold text-color-secondary'>
                 Restaurante
               </h3>
             </div>
-            <div className='flex flex-col gap-2 text-lg font-medium w-[500px]'>
+            <div className='flex flex-col gap-2 text-xs sm:text-lg font-medium w-[170px] sm:w-[500px]'>
               <p>
                 Disfruta de una exquisita selección de platos elaborados con
                 ingredientes frescos y de la más alta calidad.
@@ -35,7 +35,7 @@ const ServiciosSection = () => {
           </div>
           <div>
             <Image
-              className='rounded-2xl'
+              className='rounded-md sm:rounded-2xl'
               src='/assets/servicios/restaurante-servicios.webp'
               width={324}
               height={324}
@@ -43,10 +43,10 @@ const ServiciosSection = () => {
             />
           </div>
         </article>
-        <article className='flex items-center gap-16 mb-32'>
+        <article className='flex items-center gap-3 sm:gap-8 md:gap-16 mb-10 sm:mb-16 md:mb-24 lg:mb-32'>
           <div>
             <Image
-              className='rounded-2xl'
+              className='rounded-md sm:rounded-2xl'
               src='/assets/servicios/bar-servicios.webp'
               width={324}
               height={324}
@@ -54,15 +54,15 @@ const ServiciosSection = () => {
             />
           </div>
           <div>
-            <div className='flex items-center gap-3 mb-3'>
-              <div className='bg-color-primary p-3 rounded-full'>
-                <BarIcon className='w-6 h-6' />
+            <div className='flex items-center gap-2 md:gap-3 mb-3'>
+              <div className='bg-color-primary p-2 md:p-3 rounded-full'>
+                <BarIcon className='w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6' />
               </div>
-              <h3 className='text-2xl font-semibold text-color-secondary'>
+              <h3 className='sm:text-lg md:text-2xl font-semibold text-color-secondary'>
                 Bar
               </h3>
             </div>
-            <div className='flex flex-col gap-2 text-lg font-medium w-[500px]'>
+            <div className='flex flex-col gap-2 text-xs sm:text-lg font-medium w-[170px] sm:w-[500px]'>
               <p>
                 Relájate y disfruta de nuestra amplia variedad de cócteles
                 artesanales, vinos y cervezas en un entorno moderno y animado.
@@ -75,17 +75,17 @@ const ServiciosSection = () => {
             </div>
           </div>
         </article>
-        <article className='flex items-center gap-16'>
+        <article className='flex items-center gap-3 sm:gap-8 md:gap-16'>
           <div>
-            <div className='flex items-center gap-3 mb-3'>
-              <div className='bg-color-primary p-3 rounded-full'>
-                <CafeteriaIcon className='w-6 h-6' />
+            <div className='flex items-center gap-2 md:gap-3 mb-3'>
+              <div className='bg-color-primary p-2 md:p-3 rounded-full'>
+                <CafeteriaIcon className='w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6' />
               </div>
-              <h3 className='text-2xl font-semibold text-color-secondary'>
+              <h3 className='sm:text-lg md:text-2xl font-semibold text-color-secondary'>
                 Cafetería
               </h3>
             </div>
-            <div className='flex flex-col gap-2 text-lg font-medium w-[500px]'>
+            <div className='flex flex-col gap-2 text-xs sm:text-lg font-medium w-[170px] sm:w-[500px]'>
               <p>
                 Encuentra el lugar perfecto para una pausa tranquila con nuestra
                 selección de cafés gourmet, tés y deliciosos pasteles.
@@ -99,7 +99,7 @@ const ServiciosSection = () => {
           </div>
           <div>
             <Image
-              className='rounded-2xl'
+              className='rounded-md sm:rounded-2xl'
               src='/assets/servicios/cafeteria-servicios.webp'
               width={324}
               height={324}

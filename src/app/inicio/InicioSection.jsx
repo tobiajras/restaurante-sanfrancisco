@@ -5,7 +5,7 @@ import React from 'react';
 const HomeSection = () => {
   return (
     <section id='inicioSection'>
-      <div className='flex items-center gap-3 sm:gap-8 md:gap-16 mt-10 mb-20 md:mt-20 md:mb-40 mx-6 sm:mx-8 md:mx-10'>
+      <div className='flex items-center gap-3 sm:gap-8 md:gap-16 my-10 md:my-20 mx-6 sm:mx-8 md:mx-10'>
         <article>
           <div className='flex gap-1 sm:gap-2 md:gap-3 font-bold text-color-primary text-[10px] sm:text-sm md:text-base'>
             <span>#Restaurante</span>
@@ -39,7 +39,7 @@ const HomeSection = () => {
           <div>
             <Image
               priority
-              className='rounded-md md:rounded-xl lg:rounded-3xl'
+              className='w-24 rounded-md md:rounded-xl lg:rounded-3xl'
               src='/assets/local-image.webp'
               width={400}
               height={500}

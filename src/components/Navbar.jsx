@@ -78,7 +78,7 @@ const Navbar = () => {
                 to='serviciosSection'
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-120}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -91,7 +91,7 @@ const Navbar = () => {
                 to='testimoniosSection'
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-120}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -100,10 +100,11 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={() => setIsOpen(false)}
                 to='nosotrosSection'
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-120}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -116,7 +117,7 @@ const Navbar = () => {
                 to='ubicacionSection'
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-120}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -152,7 +153,7 @@ const Navbar = () => {
                 to='serviciosSection'
                 spy={true}
                 smooth={true}
-                offset={-192}
+                offset={-120}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -164,7 +165,7 @@ const Navbar = () => {
                 to='testimoniosSection'
                 spy={true}
                 smooth={true}
-                offset={-192}
+                offset={-120}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -176,7 +177,7 @@ const Navbar = () => {
                 to='nosotrosSection'
                 spy={true}
                 smooth={true}
-                offset={-192}
+                offset={-120}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -188,7 +189,7 @@ const Navbar = () => {
                 to='ubicacionSection'
                 spy={true}
                 smooth={true}
-                offset={-192}
+                offset={-120}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
