@@ -129,8 +129,8 @@ const TestimoniosSection = () => {
             <span className='font-semibold'>Dalia Reyes G</span>
           </div>
           <p className='w-[400px] mt-3 font-medium'>
-            Este lugar es perfecto para ir a "charanguear" y pasarla con amigos,
-            las cervezas siempre están super frias.
+            Este lugar es perfecto para ir a &quot;charanguear&quot; y pasarla
+            con amigos, las cervezas siempre están super frias.
           </p>
           <div className='flex gap-1.5 mt-2'>
             <span>
