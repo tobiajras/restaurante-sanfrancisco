@@ -22,9 +22,10 @@ const Footer = () => {
                   width={60}
                   height={60}
                 />
-                <span className='font-medium text-color-title-light'>
-                  Restaurante San Francisco
-                </span>
+                <div className='flex flex-col font-medium text-color-title-light leading-5 text-lg'>
+                  <span className=''>Restaurante</span>
+                  <span className=''>San Francisco</span>
+                </div>
               </div>
               <p className='text-sm mt-3 max-w-96 text-color-text-light'>
                 Con más de 20 años de experiencia, nos dedicamos con pasión a
@@ -76,7 +77,7 @@ const Footer = () => {
                       to='serviciosSection'
                       spy={true}
                       smooth={true}
-                      offset={-96}
+                      offset={-192}
                       duration={500}
                       className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
@@ -88,7 +89,7 @@ const Footer = () => {
                       to='testimonionsSection'
                       spy={true}
                       smooth={true}
-                      offset={-96}
+                      offset={-192}
                       duration={500}
                       className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
@@ -100,7 +101,7 @@ const Footer = () => {
                       to='nosotrosSection'
                       spy={true}
                       smooth={true}
-                      offset={-96}
+                      offset={-192}
                       duration={500}
                       className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
@@ -112,7 +113,7 @@ const Footer = () => {
                       to='ubicacionSection'
                       spy={true}
                       smooth={true}
-                      offset={-96}
+                      offset={-192}
                       duration={500}
                       className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >

@@ -46,7 +46,10 @@ const Navbar = () => {
             height={50}
             alt='logo restaurante'
           />
-          <span>Restaurante San Francisco</span>
+          <div className='flex flex-col'>
+            <span className='leading-5'>Restaurante</span>
+            <span className='leading-5'>San Francisco</span>
+          </div>
         </Link>
         <nav
           className={`${
@@ -149,7 +152,7 @@ const Navbar = () => {
                 to='serviciosSection'
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-192}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -161,7 +164,7 @@ const Navbar = () => {
                 to='testimoniosSection'
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-192}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -173,7 +176,7 @@ const Navbar = () => {
                 to='nosotrosSection'
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-192}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -185,7 +188,7 @@ const Navbar = () => {
                 to='ubicacionSection'
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-192}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
