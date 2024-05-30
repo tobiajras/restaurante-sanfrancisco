@@ -40,6 +40,7 @@ const Navbar = () => {
           className='cursor-pointer flex items-center gap-3 text-lg text-color-text-light hover:text-color-title-light transition-colors py-6 sm:py-5'
         >
           <Image
+            priority
             src='/assets/logo-restaurantecf.webp'
             width={50}
             height={50}
@@ -193,7 +194,6 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-
         <button className='md:hidden' onClick={() => handleNav()}>
           <HamburguerIcon className='fill-color-text-light w-9 h-9 hover:fill-color-title-light transition-colors' />
         </button>

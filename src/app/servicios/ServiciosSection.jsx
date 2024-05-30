@@ -1,14 +1,16 @@
 import BarIcon from '@/components/icons/BarIcon';
 import CafeteriaIcon from '@/components/icons/CafeteriaIcon';
 import RestaurantIcon from '@/components/icons/RestaurantIcon';
+import SectionTitle from '@/components/SectionTitle';
 import Image from 'next/image';
 import React from 'react';
 
 const ServiciosSection = () => {
   return (
     <section id='serviciosSection' className='my-10 md:my-20'>
-      <div className='flex flex-col gap-32'>
-        <article className='flex items-center gap-16'>
+      <div className='flex flex-col'>
+        <SectionTitle title='Servicios' />
+        <article className='flex items-center gap-16 mb-32'>
           <div>
             <div className='flex items-center gap-3 mb-3'>
               <div className='bg-color-primary p-3 rounded-full'>
@@ -41,7 +43,7 @@ const ServiciosSection = () => {
             />
           </div>
         </article>
-        <article className='flex items-center gap-16'>
+        <article className='flex items-center gap-16 mb-32'>
           <div>
             <Image
               className='rounded-2xl'

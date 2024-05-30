@@ -1,4 +1,5 @@
 import HomeSection from './inicio/InicioSection';
+import NosotrosSection from './nosotros/NosotrosSection';
 import ServiciosSection from './servicios/ServiciosSection';
 import TestimoniosSection from './testimonios/TestimoniosSection';
 
@@ -8,6 +9,7 @@ export default function Home() {
       <HomeSection />
       <ServiciosSection />
       <TestimoniosSection />
+      <NosotrosSection />
     </main>
   );
 }

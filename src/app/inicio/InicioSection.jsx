@@ -7,12 +7,12 @@ const HomeSection = () => {
     <section id='inicioSection'>
       <div className='flex items-center gap-16 mt-10 mb-20 md:mt-20 md:mb-40'>
         <article>
-          <div className='flex gap-3 font-semibold text-color-primary'>
+          <div className='flex gap-3 font-bold text-color-primary'>
             <span>#Restaurante</span>
             <span>#Bar</span>
             <span>#Cafetería</span>
           </div>
-          <div className='text-6xl font-bold mt-1 text-color-secondary'>
+          <div className='flex flex-col gap-3 text-6xl font-bold mt-1 text-color-secondary'>
             <h2>Sabor y tradición</h2>
             <h2>en cada bocado</h2>
           </div>
@@ -38,6 +38,7 @@ const HomeSection = () => {
         <article className='relative'>
           <div>
             <Image
+              priority
               className='rounded-3xl'
               src='/assets/local-image.webp'
               width={400}
@@ -47,6 +48,7 @@ const HomeSection = () => {
           </div>
           <div className='absolute -bottom-24 -left-24'>
             <Image
+              priority
               src='/assets/home-plate.webp'
               width={298}
               height={224}

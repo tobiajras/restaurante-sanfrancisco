@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className='flex justify-center pt-10 pb-16 shadow-top-lg bg-color-background '>
       <div className='flex flex-col w-full max-w-6xl mx-6 sm:mx-8 md:mx-10'>
-        <section className='flex md:justify-center   w-full'>
+        <section className='flex md:justify-center w-full'>
           <div className='flex flex-col md:flex-row gap-8 lg:gap-32 w-full justify-between max-w-6xl  py-10'>
             <article className='flex w-full flex-col'>
               <div className='flex items-center gap-3'>
@@ -40,18 +40,18 @@ const Footer = () => {
                   <WhatsappIcon className='w-8 h-8 text-color-primary hover:text-color-primary-dark transition-colors' />
                 </a>
                 <a
-                  href='https://www.instagram.com'
+                  href='https://www.facebook.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <InstagramIcon className='w-8 h-8 text-color-primary hover:text-color-primary-dark transition-colors' />
+                  <FacebookIcon className='w-8 h-8 text-color-primary hover:text-color-primary-dark transition-colors' />
                 </a>
                 <a
                   href='https://www.instagram.com/restsanfranciscocoyoacan'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FacebookIcon className='w-8 h-8 text-color-primary hover:text-color-primary-dark transition-colors' />
+                  <InstagramIcon className='w-8 h-8 text-color-primary hover:text-color-primary-dark transition-colors' />
                 </a>
               </div>
             </article>
@@ -156,7 +156,7 @@ const Footer = () => {
                 href='https://www.linkedin.com/in/tobiasajras/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-color-primary hover:text-color-primary-dark hover:font-semibold transition-all'
+                className='text-color-primary hover:text-color-primary-dark hover:font-medium transition-all'
               >
                 Tobías Ajras
               </a>
