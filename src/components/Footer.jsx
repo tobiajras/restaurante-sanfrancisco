@@ -10,7 +10,7 @@ import { Link } from 'react-scroll';
 const Footer = () => {
   return (
     <footer className='flex justify-center pt-10 pb-16 shadow-top-lg bg-color-bg-primary '>
-      <div className='flex flex-col w-full max-w-6xl mx-4 sm:mx-6 md:mx-8'>
+      <div className='flex flex-col w-full max-w-6xl mx-4 sm:mx-6 md:mx-8 lg:mx-10'>
         <section className='flex md:justify-center w-full'>
           <div className='flex flex-col md:flex-row gap-8 lg:gap-32 w-full justify-between max-w-6xl  py-10'>
             <article className='flex w-full flex-col'>
@@ -77,7 +77,7 @@ const Footer = () => {
                       to='serviciosSection'
                       spy={true}
                       smooth={true}
-                      offset={-192}
+                      offset={-160}
                       duration={500}
                       className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
@@ -86,10 +86,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      to='testimonionsSection'
+                      to='testimoniosSection'
                       spy={true}
                       smooth={true}
-                      offset={-192}
+                      offset={-160}
                       duration={500}
                       className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
@@ -101,7 +101,7 @@ const Footer = () => {
                       to='nosotrosSection'
                       spy={true}
                       smooth={true}
-                      offset={-192}
+                      offset={-160}
                       duration={500}
                       className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >
@@ -113,7 +113,7 @@ const Footer = () => {
                       to='ubicacionSection'
                       spy={true}
                       smooth={true}
-                      offset={-192}
+                      offset={-160}
                       duration={500}
                       className=' hover:text-color-title-light transition-colors cursor-pointer'
                     >

@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <header className='sticky flex justify-center items-center top-0 left-0 w-full h-24 z-40 bg-color-bg-primary'>
-      <div className='flex justify-between items-center mx-4 sm:mx-6 md:mx-8 w-full h-full max-w-6xl'>
+      <div className='flex justify-between items-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 w-full h-full max-w-6xl'>
         <Link
           to='inicioSection'
           spy={true}
@@ -78,7 +78,7 @@ const Navbar = () => {
                 to='serviciosSection'
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-160}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -91,7 +91,7 @@ const Navbar = () => {
                 to='testimoniosSection'
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-160}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -104,7 +104,7 @@ const Navbar = () => {
                 to='nosotrosSection'
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-160}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -117,7 +117,7 @@ const Navbar = () => {
                 to='ubicacionSection'
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-160}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -153,7 +153,7 @@ const Navbar = () => {
                 to='serviciosSection'
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-160}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -165,7 +165,7 @@ const Navbar = () => {
                 to='testimoniosSection'
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-160}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -177,7 +177,7 @@ const Navbar = () => {
                 to='nosotrosSection'
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-160}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >
@@ -189,7 +189,7 @@ const Navbar = () => {
                 to='ubicacionSection'
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-160}
                 duration={500}
                 className='cursor-pointer text-color-text-light hover:text-color-title-light transition-colors block'
               >

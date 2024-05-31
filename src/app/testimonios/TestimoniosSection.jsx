@@ -4,11 +4,28 @@ import useEmblaCarousel from 'embla-carousel-react';
 
 import { useState } from 'react';
 
+import { motion } from 'framer-motion';
+
 import testimonios from '@/data/testimonios.json';
 
 import StarIcon from '@/components/icons/StarIcon';
 import Image from 'next/image';
 import SectionTitle from '@/components/SectionTitle';
+
+const testimoniosVariants = {
+  inactive: {
+    opacity: 0,
+    y: 30,
+  },
+  active: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ease: 'easeOut',
+      duration: 0.3,
+    },
+  },
+};
 
 const TestimoniosSection = () => {
   const [emblaRef] = useEmblaCarousel({ dragFree: true });
@@ -18,21 +35,31 @@ const TestimoniosSection = () => {
   return (
     <section
       id='testimoniosSection'
-      className='my-10 md:my-20 w-full flex flex-col overflow-hidden'
+      className='my-10 md:my-14 lg:my-20 w-full flex flex-col overflow-hidden'
     >
       <SectionTitle title='Testimonios' />
-      <div className='' ref={emblaRef}>
+      <motion.div
+        variants={testimoniosVariants}
+        initial='inactive'
+        whileInView='active'
+        viewport={{
+          once: true,
+          margin: '0px 0px -300px 0px',
+        }}
+        className='flex justify-center'
+        ref={emblaRef}
+      >
         <div
           onMouseUp={() => setClicked(false)}
           onMouseDown={() => setClicked(true)}
-          className={`flex gap-2 sm:gap-3 md:gap-5 max-w-6xl mx-4 sm:mx-6 md:mx-8 ${
+          className={`flex gap-2 sm:gap-3 md:gap-5 max-w-6xl w-full px-4 sm:px-6 md:px-8 lg:px-10 ${
             clicked ? 'cursor-grabbing' : 'cursor-grab'
           }`}
         >
           {testimonios?.map((testimonio, index) => (
             <article
               key={index}
-              className='bg-color-bg-primary p-6 sm: p-8 md:p-10 rounded-md drop-shadow select-none'
+              className='bg-color-bg-primary p-6 sm:p-8 md:p-10 rounded-md drop-shadow select-none'
             >
               <div className='flex items-center gap-3'>
                 <Image
@@ -61,7 +88,7 @@ const TestimoniosSection = () => {
             </article>
           ))}
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
