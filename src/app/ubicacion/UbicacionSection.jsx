@@ -30,7 +30,7 @@ const UbicacionSection = () => {
           whileInView='active'
           viewport={{
             once: true,
-            margin: '0px 0px -300px 0px',
+            margin: '0px 0px -200px 0px',
           }}
         >
           <iframe

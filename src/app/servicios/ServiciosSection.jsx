@@ -47,7 +47,7 @@ const ServiciosSection = () => {
                 whileInView='active'
                 viewport={{
                   once: true,
-                  margin: '0px 0px -300px 0px',
+                  margin: '0px 0px -200px 0px',
                 }}
                 key={index}
                 className='flex items-center gap-3 sm:gap-8 md:gap-16'

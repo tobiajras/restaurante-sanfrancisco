@@ -51,7 +51,7 @@ const NosotrosSection = () => {
           whileInView='active'
           viewport={{
             once: true,
-            margin: '0px 0px -300px 0px',
+            margin: '0px 0px -200px 0px',
           }}
           className='flex flex-col md:flex-row items-center gap-10 mx-4 sm:mx-6 md:mx-8 lg:mx-10'
         >
